@@ -1,0 +1,22 @@
+
+# Python virtual environments
+backend/venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Local database and uploaded images
+backend/ghostnet.db
+backend/uploads/*
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
